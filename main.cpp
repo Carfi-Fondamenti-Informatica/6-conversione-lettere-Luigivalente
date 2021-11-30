@@ -14,3 +14,14 @@ char conversione(char carattere){
         }
     }
 }
+
+int main() {
+    char carattere,conv;
+    cin >> carattere;
+    if((carattere >= 'a'&& carattere <='z') || (carattere >='A' && carattere <='Z')){
+        conv=conversione(carattere);
+        cout << conv <<endl;
+    }else{
+        cout << "errore" <<endl;
+    }
+}
