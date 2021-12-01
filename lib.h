@@ -1,1 +1,1 @@
-
+char conversione(char carattere);
