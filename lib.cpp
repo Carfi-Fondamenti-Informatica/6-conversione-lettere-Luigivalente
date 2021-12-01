@@ -1,5 +1,4 @@
 char conversione(char carattere){
-    if((carattere >= 'a'&& carattere <='z') || (carattere >='A' && carattere <='Z')){
         if(carattere >= 'a' && carattere <= 'z'){
             carattere = carattere-32;
             return carattere;
@@ -9,4 +8,4 @@ char conversione(char carattere){
         }else{
             return '0';
         }
-   
+    }
