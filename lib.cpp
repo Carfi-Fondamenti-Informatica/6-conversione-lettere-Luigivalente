@@ -1,4 +1,4 @@
-include "lib.h"
+#include "lib.h"
 char conversione(char carattere){
         if(carattere >= 'a' && carattere <= 'z'){
             carattere = carattere-32;
