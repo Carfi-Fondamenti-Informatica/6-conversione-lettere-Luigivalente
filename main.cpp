@@ -2,7 +2,6 @@
 using namespace std;
 
 char conversione(char carattere){
-    if((carattere >= 'a'&& carattere <='z') || (carattere >='A' && carattere <='Z')){
         if(carattere >= 'a' && carattere <= 'z'){
             carattere = carattere-32;
             return carattere;
@@ -12,14 +11,13 @@ char conversione(char carattere){
         }else{
             return '0';
         }
-    }
 }
 
 int main() {
     char carattere,conv;
     cin >> carattere;
-    if((carattere >= 'a'&& carattere <='z') || (carattere >='A' && carattere <='Z')){
-        conv=conversione(carattere);
+    conv=conversione(carattere);
+    if (conv!='0'){
         cout << conv <<endl;
     }else{
         cout << "errore" <<endl;
